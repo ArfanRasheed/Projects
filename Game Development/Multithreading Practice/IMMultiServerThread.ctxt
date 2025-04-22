@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=IMMultiServerThread
+comment1.params=socket
+comment1.target=IMMultiServerThread(java.net.Socket)
+comment2.params=
+comment2.target=void\ run()
+numComments=3

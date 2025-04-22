@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=IMProtocol
+comment1.params=theInput
+comment1.target=Message\ processInput(Message)
+numComments=2
