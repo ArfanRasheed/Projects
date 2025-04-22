@@ -1,0 +1,549 @@
+[gd_scene load_steps=120 format=3 uid="uid://c3l5v6np5uebd"]
+
+[ext_resource type="Texture2D" uid="uid://ds0ipt6nyjxha" path="res://Art/Characters/Metal Bladesmith/Attacks/07_1_atk/07_1_atk_1.png" id="1_ov54r"]
+[ext_resource type="Texture2D" uid="uid://cnq04w2svljgo" path="res://Art/Characters/Metal Bladesmith/Attacks/07_1_atk/07_1_atk_2.png" id="2_kafrq"]
+[ext_resource type="Texture2D" uid="uid://d2y4xddro13q0" path="res://Art/Characters/Metal Bladesmith/Attacks/07_1_atk/07_1_atk_3.png" id="3_h42aq"]
+[ext_resource type="Texture2D" uid="uid://leph42qjgg6a" path="res://Art/Characters/Metal Bladesmith/Attacks/07_1_atk/07_1_atk_4.png" id="4_7enmi"]
+[ext_resource type="Texture2D" uid="uid://7emqc4vk6cir" path="res://Art/Characters/Metal Bladesmith/Attacks/07_1_atk/07_1_atk_5.png" id="5_7dwoh"]
+[ext_resource type="Texture2D" uid="uid://dyepm57udth62" path="res://Art/Characters/Metal Bladesmith/Attacks/07_1_atk/07_1_atk_6.png" id="6_q2g5a"]
+[ext_resource type="Texture2D" uid="uid://fxv680atxkjn" path="res://Art/Characters/Metal Bladesmith/Attacks/08_2_atk/08_2_atk_1.png" id="7_sn57g"]
+[ext_resource type="Texture2D" uid="uid://d1pgyb5ed0u8c" path="res://Art/Characters/Metal Bladesmith/Attacks/08_2_atk/08_2_atk_2.png" id="8_g3unl"]
+[ext_resource type="Texture2D" uid="uid://dbedf33k2exyt" path="res://Art/Characters/Metal Bladesmith/Attacks/08_2_atk/08_2_atk_3.png" id="9_cxtfa"]
+[ext_resource type="Texture2D" uid="uid://c4on0xqli8qbb" path="res://Art/Characters/Metal Bladesmith/Attacks/08_2_atk/08_2_atk_4.png" id="10_e8lir"]
+[ext_resource type="Texture2D" uid="uid://1k1n5s57a3lh" path="res://Art/Characters/Metal Bladesmith/Attacks/08_2_atk/08_2_atk_5.png" id="11_02tp0"]
+[ext_resource type="Texture2D" uid="uid://cg7tklnw6n3p6" path="res://Art/Characters/Metal Bladesmith/Attacks/08_2_atk/08_2_atk_6.png" id="12_eoocg"]
+[ext_resource type="Texture2D" uid="uid://dfe1uqx848e0j" path="res://Art/Characters/Metal Bladesmith/Attacks/08_2_atk/08_2_atk_7.png" id="13_ug8dr"]
+[ext_resource type="Texture2D" uid="uid://r80y8ti3xp6k" path="res://Art/Characters/Metal Bladesmith/Attacks/08_2_atk/08_2_atk_8.png" id="14_lpkcl"]
+[ext_resource type="Texture2D" uid="uid://xr8hk8rhdpr" path="res://Art/Characters/Metal Bladesmith/Attacks/09_3_atk/09_3_atk_1.png" id="15_u6i34"]
+[ext_resource type="Texture2D" uid="uid://cf131y5iexaak" path="res://Art/Characters/Metal Bladesmith/Attacks/09_3_atk/09_3_atk_2.png" id="16_5aewr"]
+[ext_resource type="Texture2D" uid="uid://c13q0fwppfj3x" path="res://Art/Characters/Metal Bladesmith/Attacks/09_3_atk/09_3_atk_3.png" id="17_vs5wb"]
+[ext_resource type="Texture2D" uid="uid://pgvcl44rtit" path="res://Art/Characters/Metal Bladesmith/Attacks/09_3_atk/09_3_atk_4.png" id="18_n1rnu"]
+[ext_resource type="Texture2D" uid="uid://yrysfg361cx6" path="res://Art/Characters/Metal Bladesmith/Attacks/09_3_atk/09_3_atk_5.png" id="19_bpfhy"]
+[ext_resource type="Texture2D" uid="uid://vas30lj8tryn" path="res://Art/Characters/Metal Bladesmith/Attacks/09_3_atk/09_3_atk_6.png" id="20_h55w5"]
+[ext_resource type="Texture2D" uid="uid://vatydkdwu7i2" path="res://Art/Characters/Metal Bladesmith/Attacks/09_3_atk/09_3_atk_7.png" id="21_ep861"]
+[ext_resource type="Texture2D" uid="uid://bd4efrmw2ienn" path="res://Art/Characters/Metal Bladesmith/Attacks/09_3_atk/09_3_atk_8.png" id="22_rs8wj"]
+[ext_resource type="Texture2D" uid="uid://lviq6l0ica7e" path="res://Art/Characters/Metal Bladesmith/Attacks/09_3_atk/09_3_atk_9.png" id="23_tr6me"]
+[ext_resource type="Texture2D" uid="uid://deii8cgnk08cs" path="res://Art/Characters/Metal Bladesmith/Attacks/09_3_atk/09_3_atk_10.png" id="24_gg78i"]
+[ext_resource type="Texture2D" uid="uid://b3tavscpjymyo" path="res://Art/Characters/Metal Bladesmith/Attacks/09_3_atk/09_3_atk_11.png" id="25_uvr1d"]
+[ext_resource type="Texture2D" uid="uid://dp8xr6ci6pnkw" path="res://Art/Characters/Metal Bladesmith/Attacks/09_3_atk/09_3_atk_12.png" id="26_5sk0v"]
+[ext_resource type="Texture2D" uid="uid://ddpoammps500a" path="res://Art/Characters/Metal Bladesmith/Attacks/09_3_atk/09_3_atk_13.png" id="27_c6b0v"]
+[ext_resource type="Texture2D" uid="uid://4xm1rp3uvrj8" path="res://Art/Characters/Metal Bladesmith/Attacks/09_3_atk/09_3_atk_14.png" id="28_k58ia"]
+[ext_resource type="Texture2D" uid="uid://cqb3tfxv2unqe" path="res://Art/Characters/Metal Bladesmith/Attacks/09_3_atk/09_3_atk_15.png" id="29_e4g2j"]
+[ext_resource type="Texture2D" uid="uid://bkb2ec51rlog8" path="res://Art/Characters/Metal Bladesmith/Attacks/09_3_atk/09_3_atk_16.png" id="30_h13xa"]
+[ext_resource type="Texture2D" uid="uid://dncw2pgmqpoln" path="res://Art/Characters/Metal Bladesmith/Attacks/09_3_atk/09_3_atk_17.png" id="31_jffo3"]
+[ext_resource type="Texture2D" uid="uid://kmuluy34j2tl" path="res://Art/Characters/Metal Bladesmith/Attacks/09_3_atk/09_3_atk_18.png" id="32_ds0rr"]
+[ext_resource type="Texture2D" uid="uid://74t6omyjmu7x" path="res://Art/Characters/Metal Bladesmith/Misc/13_death/13_death_1.png" id="33_pd26k"]
+[ext_resource type="Texture2D" uid="uid://c7jhktp3rb25y" path="res://Art/Characters/Metal Bladesmith/Misc/13_death/13_death_2.png" id="34_rgngw"]
+[ext_resource type="Texture2D" uid="uid://cg34d0x5xnufo" path="res://Art/Characters/Metal Bladesmith/Misc/13_death/13_death_3.png" id="35_h40qg"]
+[ext_resource type="Texture2D" uid="uid://b5b8fh5uc6p2p" path="res://Art/Characters/Metal Bladesmith/Misc/13_death/13_death_4.png" id="36_yhakf"]
+[ext_resource type="Texture2D" uid="uid://bo7l53qemn64o" path="res://Art/Characters/Metal Bladesmith/Misc/13_death/13_death_5.png" id="37_phte6"]
+[ext_resource type="Texture2D" uid="uid://capdl4y4c328e" path="res://Art/Characters/Metal Bladesmith/Misc/13_death/13_death_6.png" id="38_islr0"]
+[ext_resource type="Texture2D" uid="uid://di4qlmbt33p26" path="res://Art/Characters/Metal Bladesmith/Misc/13_death/13_death_7.png" id="39_a0ofh"]
+[ext_resource type="Texture2D" uid="uid://8p2lrd5dkd1w" path="res://Art/Characters/Metal Bladesmith/Misc/13_death/13_death_8.png" id="40_wlddk"]
+[ext_resource type="Texture2D" uid="uid://bm1qhjn88i00k" path="res://Art/Characters/Metal Bladesmith/Misc/13_death/13_death_9.png" id="41_h55cn"]
+[ext_resource type="Texture2D" uid="uid://dihmtp3cwbqdd" path="res://Art/Characters/Metal Bladesmith/Misc/13_death/13_death_10.png" id="42_c26kd"]
+[ext_resource type="Texture2D" uid="uid://bdn0xmgr1d8xe" path="res://Art/Characters/Metal Bladesmith/Misc/13_death/13_death_11.png" id="43_b447b"]
+[ext_resource type="Texture2D" uid="uid://c5dmtfmawfk43" path="res://Art/Characters/Metal Bladesmith/Misc/13_death/13_death_12.png" id="44_b8qru"]
+[ext_resource type="Texture2D" uid="uid://cse6pkkpodm22" path="res://Art/Characters/Metal Bladesmith/Misc/11_defend/11_defend_1.png" id="45_lk4du"]
+[ext_resource type="Texture2D" uid="uid://clukl5mprmsav" path="res://Art/Characters/Metal Bladesmith/Misc/11_defend/11_defend_2.png" id="46_j8c6q"]
+[ext_resource type="Texture2D" uid="uid://fmetty2jksej" path="res://Art/Characters/Metal Bladesmith/Misc/11_defend/11_defend_3.png" id="47_g3erb"]
+[ext_resource type="Texture2D" uid="uid://v7p7nkldo5gr" path="res://Art/Characters/Metal Bladesmith/Misc/11_defend/11_defend_4.png" id="48_wgdi6"]
+[ext_resource type="Texture2D" uid="uid://bsmnsryarkfct" path="res://Art/Characters/Metal Bladesmith/Misc/11_defend/11_defend_5.png" id="49_a2bdf"]
+[ext_resource type="Texture2D" uid="uid://dqrb17je5tiur" path="res://Art/Characters/Metal Bladesmith/Misc/11_defend/11_defend_6.png" id="50_hdhgl"]
+[ext_resource type="Texture2D" uid="uid://igshls0ll4jm" path="res://Art/Characters/Metal Bladesmith/Misc/11_defend/11_defend_7.png" id="51_epmc2"]
+[ext_resource type="Texture2D" uid="uid://dmykrkidrweh0" path="res://Art/Characters/Metal Bladesmith/Misc/11_defend/11_defend_8.png" id="52_dibje"]
+[ext_resource type="Texture2D" uid="uid://d12fr633o5evo" path="res://Art/Characters/Metal Bladesmith/Misc/11_defend/11_defend_9.png" id="53_bm2lk"]
+[ext_resource type="Texture2D" uid="uid://cn0633au5eh65" path="res://Art/Characters/Metal Bladesmith/Misc/11_defend/11_defend_10.png" id="54_rajn0"]
+[ext_resource type="Texture2D" uid="uid://xwxrmruhi14c" path="res://Art/Characters/Metal Bladesmith/Misc/11_defend/11_defend_11.png" id="55_wh64s"]
+[ext_resource type="Texture2D" uid="uid://d24sk6dhfa8k7" path="res://Art/Characters/Metal Bladesmith/Misc/11_defend/11_defend_12.png" id="56_k885q"]
+[ext_resource type="Texture2D" uid="uid://bpnkyysewyeen" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_1.png" id="57_8swwj"]
+[ext_resource type="Texture2D" uid="uid://dbai4b0gvyvv8" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_down/03_jump_down_1.png" id="57_e7d7e"]
+[ext_resource type="Texture2D" uid="uid://ds4ooqgpq1i0e" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_down/03_jump_down_2.png" id="58_b4dnp"]
+[ext_resource type="Texture2D" uid="uid://djuwepbmae2pl" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_2.png" id="58_qm3vq"]
+[ext_resource type="Texture2D" uid="uid://c8w5jjq6fqbfc" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_down/03_jump_down_3.png" id="59_00846"]
+[ext_resource type="Texture2D" uid="uid://c1xcw571eppcl" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_3.png" id="59_qgslo"]
+[ext_resource type="Texture2D" uid="uid://brfw7cmm62a6o" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_1.png" id="60_07q78"]
+[ext_resource type="Texture2D" uid="uid://cgpte0gqejmxn" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_4.png" id="60_igysb"]
+[ext_resource type="Texture2D" uid="uid://d4jo6wjql7lim" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_2.png" id="61_14ldh"]
+[ext_resource type="Texture2D" uid="uid://dpk7irlsoh1ox" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_5.png" id="61_utsfo"]
+[ext_resource type="Texture2D" uid="uid://bf858cbt8unv3" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_6.png" id="62_ddhff"]
+[ext_resource type="Texture2D" uid="uid://c1ipnudltvwp7" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_3.png" id="62_tl61o"]
+[ext_resource type="Texture2D" uid="uid://dw6sm5bkqcni7" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_7.png" id="63_0lg0e"]
+[ext_resource type="Texture2D" uid="uid://cwcm1vo7f2r5x" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_4.png" id="63_640f2"]
+[ext_resource type="Texture2D" uid="uid://cj6bwke0vtpad" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_8.png" id="64_mqm2i"]
+[ext_resource type="Texture2D" uid="uid://cjk0iu3bx5lco" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_5.png" id="64_pd3m0"]
+[ext_resource type="Texture2D" uid="uid://dgb8a0up2plaw" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_6.png" id="65_20plw"]
+[ext_resource type="Texture2D" uid="uid://u27k17vax88x" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_7.png" id="66_you23"]
+[ext_resource type="Texture2D" uid="uid://dti5ujk2htyt0" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_8.png" id="67_obrmg"]
+[ext_resource type="Texture2D" uid="uid://8b36ah2drewn" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_9.png" id="68_m3s45"]
+[ext_resource type="Texture2D" uid="uid://bam21t0i2ugkb" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_10.png" id="69_bkb5w"]
+[ext_resource type="Texture2D" uid="uid://dv21h38r2gewk" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_11.png" id="70_bfhhg"]
+[ext_resource type="Texture2D" uid="uid://cg6fme40vvhyw" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_12.png" id="71_6cgah"]
+[ext_resource type="Texture2D" uid="uid://btnpsxefgvmma" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_13.png" id="72_3dn1d"]
+[ext_resource type="Texture2D" uid="uid://bfdf6npa0y3b3" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_14.png" id="73_t45tc"]
+[ext_resource type="Texture2D" uid="uid://c0dvklxvri58p" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_15.png" id="74_drrse"]
+[ext_resource type="Texture2D" uid="uid://odscocfuppo" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_16.png" id="75_h4yud"]
+[ext_resource type="Texture2D" uid="uid://ctge5qurhg1tm" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_17.png" id="76_ddquo"]
+[ext_resource type="Texture2D" uid="uid://brng2bo6ncilg" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_18.png" id="77_fjpe5"]
+[ext_resource type="Texture2D" uid="uid://cfg1fww1gve4f" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_19.png" id="78_wgj3q"]
+[ext_resource type="Texture2D" uid="uid://q0quj4echp60" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_20.png" id="79_mvrhr"]
+[ext_resource type="Texture2D" uid="uid://d0v0gprkf6gp0" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_up/03_jump_up_1.png" id="80_01m33"]
+[ext_resource type="Texture2D" uid="uid://b5t0gtv4fiqxr" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_up/03_jump_up_2.png" id="81_4w3a5"]
+[ext_resource type="Texture2D" uid="uid://dm1hsdc1w7dlb" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_up/03_jump_up_3.png" id="82_nugv6"]
+[ext_resource type="Texture2D" uid="uid://qc5gh1csiw0b" path="res://Art/Characters/Metal Bladesmith/Misc/05_projectile_cast/05_projectile_cast_1.png" id="83_cy6cl"]
+[ext_resource type="Texture2D" uid="uid://bbgjlrqb18vap" path="res://Art/Characters/Metal Bladesmith/Misc/05_projectile_cast/05_projectile_cast_2.png" id="84_1htk6"]
+[ext_resource type="Texture2D" uid="uid://dxrd3hpmph1o0" path="res://Art/Characters/Metal Bladesmith/Misc/05_projectile_cast/05_projectile_cast_3.png" id="85_limcs"]
+[ext_resource type="Texture2D" uid="uid://64sbc5qy21jn" path="res://Art/Characters/Metal Bladesmith/Misc/05_projectile_cast/05_projectile_cast_4.png" id="86_socrm"]
+[ext_resource type="Texture2D" uid="uid://njd6nbk2wxkq" path="res://Art/Characters/Metal Bladesmith/Misc/05_projectile_cast/05_projectile_cast_5.png" id="87_efg1n"]
+[ext_resource type="Texture2D" uid="uid://dhydfct6r31x6" path="res://Art/Characters/Metal Bladesmith/Misc/05_projectile_cast/05_projectile_cast_6.png" id="88_n2q8y"]
+[ext_resource type="Texture2D" uid="uid://bw68bn35sw0ss" path="res://Art/Characters/Metal Bladesmith/Misc/05_projectile_cast/05_projectile_cast_7.png" id="89_q0d46"]
+[ext_resource type="Texture2D" uid="uid://ces7cya288a6a" path="res://Art/Characters/Metal Bladesmith/Movement/04_roll/04_roll_1.png" id="90_jy8g7"]
+[ext_resource type="Texture2D" uid="uid://w4vqyd14b322" path="res://Art/Characters/Metal Bladesmith/Movement/04_roll/04_roll_2.png" id="91_g14rd"]
+[ext_resource type="Texture2D" uid="uid://cvucvmg4r6pkt" path="res://Art/Characters/Metal Bladesmith/Movement/04_roll/04_roll_3.png" id="92_pkndc"]
+[ext_resource type="Texture2D" uid="uid://coyt67alt85ra" path="res://Art/Characters/Metal Bladesmith/Movement/04_roll/04_roll_4.png" id="93_8w7yp"]
+[ext_resource type="Texture2D" uid="uid://dceoeb5y0r1mi" path="res://Art/Characters/Metal Bladesmith/Movement/04_roll/04_roll_5.png" id="94_v77jt"]
+[ext_resource type="Texture2D" uid="uid://dsilrxuug7jlt" path="res://Art/Characters/Metal Bladesmith/Movement/04_roll/04_roll_6.png" id="95_onvq2"]
+[ext_resource type="Texture2D" uid="uid://csdk01t7sgjw8" path="res://Art/Characters/Metal Bladesmith/Movement/04_roll/04_roll_7.png" id="96_pda6k"]
+[ext_resource type="Texture2D" uid="uid://cmceu8shj58tq" path="res://Art/Characters/Metal Bladesmith/Movement/02_run/02_run_1.png" id="97_5gtem"]
+[ext_resource type="Texture2D" uid="uid://klpdgac4lfas" path="res://Art/Characters/Metal Bladesmith/Movement/02_run/02_run_2.png" id="98_vu6i2"]
+[ext_resource type="Texture2D" uid="uid://cbvyieihb6uki" path="res://Art/Characters/Metal Bladesmith/Movement/02_run/02_run_3.png" id="99_1msqd"]
+[ext_resource type="Texture2D" uid="uid://dt2hjvbn8rmr2" path="res://Art/Characters/Metal Bladesmith/Movement/02_run/02_run_4.png" id="100_iueso"]
+[ext_resource type="Texture2D" uid="uid://bpq0t5ivxoxmp" path="res://Art/Characters/Metal Bladesmith/Movement/02_run/02_run_5.png" id="101_61ij3"]
+[ext_resource type="Texture2D" uid="uid://dlekxlmc1bua4" path="res://Art/Characters/Metal Bladesmith/Movement/02_run/02_run_6.png" id="102_6jc5c"]
+[ext_resource type="Texture2D" uid="uid://iqq0loiftf7g" path="res://Art/Characters/Metal Bladesmith/Movement/02_run/02_run_7.png" id="103_rfgym"]
+[ext_resource type="Texture2D" uid="uid://bpu7liwaqo5k2" path="res://Art/Characters/Metal Bladesmith/Movement/02_run/02_run_8.png" id="104_3vq5a"]
+[ext_resource type="Texture2D" uid="uid://dkf2ypxg3jl8a" path="res://Art/Characters/Metal Bladesmith/Misc/12_take_hit/12_take_hit_1.png" id="105_hyaei"]
+[ext_resource type="Texture2D" uid="uid://bfdi0n58cuhaa" path="res://Art/Characters/Metal Bladesmith/Misc/12_take_hit/12_take_hit_2.png" id="106_6rrsk"]
+[ext_resource type="Texture2D" uid="uid://ccuofwdmrbcl" path="res://Art/Characters/Metal Bladesmith/Misc/12_take_hit/12_take_hit_3.png" id="107_hajgx"]
+[ext_resource type="Texture2D" uid="uid://bq4ahyktrtbiq" path="res://Art/Characters/Metal Bladesmith/Misc/12_take_hit/12_take_hit_4.png" id="108_7h7bn"]
+[ext_resource type="Texture2D" uid="uid://c2kesoih87vu8" path="res://Art/Characters/Metal Bladesmith/Misc/12_take_hit/12_take_hit_5.png" id="109_ogx08"]
+[ext_resource type="Texture2D" uid="uid://dlsdtr14b0r53" path="res://Art/Characters/Metal Bladesmith/Misc/12_take_hit/12_take_hit_6.png" id="110_imjxf"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vfakw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ov54r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_kafrq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_h42aq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_7enmi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_7dwoh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_q2g5a")
+}],
+"loop": false,
+"name": &"Attack1",
+"speed": 11.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_sn57g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_g3unl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_cxtfa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_e8lir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_02tp0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_eoocg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ug8dr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_lpkcl")
+}],
+"loop": false,
+"name": &"Attack2",
+"speed": 11.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_u6i34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_5aewr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_vs5wb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_n1rnu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_bpfhy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_h55w5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ep861")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_rs8wj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_tr6me")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_gg78i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_uvr1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_5sk0v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_c6b0v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_k58ia")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_e4g2j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_h13xa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_jffo3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_ds0rr")
+}],
+"loop": false,
+"name": &"Attack3",
+"speed": 11.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("33_pd26k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_rgngw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_h40qg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_yhakf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_phte6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_islr0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_a0ofh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_wlddk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_h55cn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_c26kd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_b447b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_b8qru")
+}],
+"loop": false,
+"name": &"Death",
+"speed": 11.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("45_lk4du")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_j8c6q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_g3erb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_wgdi6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_a2bdf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_hdhgl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_epmc2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_dibje")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_bm2lk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_rajn0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_wh64s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_k885q")
+}],
+"loop": false,
+"name": &"Defend",
+"speed": 11.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("57_8swwj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_qm3vq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_qgslo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_igysb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_utsfo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_ddhff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_0lg0e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_mqm2i")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("57_e7d7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_b4dnp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_00846")
+}],
+"loop": true,
+"name": &"JumpDown",
+"speed": 11.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("60_07q78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_14ldh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_tl61o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_640f2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_pd3m0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_20plw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_you23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_obrmg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_m3s45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_bkb5w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_bfhhg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_6cgah")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_3dn1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_t45tc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_drrse")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_h4yud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_ddquo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_fjpe5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_wgj3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_mvrhr")
+}],
+"loop": false,
+"name": &"JumpFull",
+"speed": 11.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("80_01m33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_4w3a5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_nugv6")
+}],
+"loop": true,
+"name": &"JumpUp",
+"speed": 11.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("83_cy6cl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_1htk6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_limcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_socrm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_efg1n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_n2q8y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_q0d46")
+}],
+"loop": false,
+"name": &"ProjectileCast",
+"speed": 11.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("90_jy8g7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_g14rd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_pkndc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_8w7yp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_v77jt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_onvq2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_pda6k")
+}],
+"loop": false,
+"name": &"Roll",
+"speed": 11.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("97_5gtem")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_vu6i2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_1msqd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_iueso")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_61ij3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_6jc5c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_rfgym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_3vq5a")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("105_hyaei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_6rrsk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_hajgx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_7h7bn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_ogx08")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_imjxf")
+}],
+"loop": false,
+"name": &"TakeHit",
+"speed": 11.0
+}]
+
+[node name="MetalBladesmith" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_vfakw")
+animation = &"Idle"
+frame_progress = 0.177447

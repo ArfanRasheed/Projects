@@ -1,0 +1,118 @@
+[gd_scene load_steps=12 format=3 uid="uid://byi28stubyn34"]
+
+[ext_resource type="Texture2D" uid="uid://ts4a4ngs5uec" path="res://CharacterSelect/Char.SS/SelectionCursorPlayer1.png" id="1_8fqhh"]
+[ext_resource type="Script" path="res://CharacterSelect/Char.SS/SelectionCursorManager.gd" id="1_ih1jn"]
+[ext_resource type="FontFile" uid="uid://tdbx4x0pdbd3" path="res://gunplay rg.otf" id="2_e1jui"]
+[ext_resource type="Texture2D" uid="uid://b2jmb1836bpu3" path="res://BlueRock.jpg" id="2_q6w3c"]
+[ext_resource type="Texture2D" uid="uid://b2k06tcbil58c" path="res://Art/Characters/Leaf Ranger/leaf_ranger.png" id="6_vwxa8"]
+[ext_resource type="Texture2D" uid="uid://1le60qgb2fk8" path="res://Art/Characters/Wind Hashira/wind_hashashin.png" id="7_kdmnt"]
+[ext_resource type="Texture2D" uid="uid://dv5npg42r1btx" path="res://Art/Characters/Monk Assets/ground_monk.png" id="8_ei1m4"]
+[ext_resource type="Texture2D" uid="uid://b1587fcivkug1" path="res://Art/Characters/Water Priestess/water_priestess.png" id="9_o7ehr"]
+[ext_resource type="Texture2D" uid="uid://csjrgeetadhpk" path="res://Art/Characters/Crystal Mauler/crystal_mauler.png" id="10_g1lh0"]
+[ext_resource type="Texture2D" uid="uid://dw5b1j4xnmwk2" path="res://Art/Characters/Fire Knight/fire_knight.png" id="11_tsxyo"]
+[ext_resource type="Texture2D" uid="uid://bx4bfdqunhpd1" path="res://Art/Characters/Metal Bladesmith/metal_bladekeeper.png" id="12_fmfxr"]
+
+[node name="CharacterSelect" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(0.3, 0.3)
+
+[node name="Cursor" type="Sprite2D" parent="."]
+top_level = true
+position = Vector2(282, 220)
+scale = Vector2(2, 1.96875)
+texture = ExtResource("1_8fqhh")
+script = ExtResource("1_ih1jn")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+visible = false
+layout_mode = 0
+offset_right = 1921.0
+offset_bottom = 1084.0
+texture = ExtResource("2_q6w3c")
+
+[node name="Label" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 407.0
+offset_top = 175.0
+offset_right = 1536.0
+offset_bottom = 315.0
+theme_override_fonts/font = ExtResource("2_e1jui")
+theme_override_font_sizes/font_size = 100
+text = "CHARACTER SELECTION"
+metadata/_edit_use_anchors_ = true
+
+[node name="Ready" type="Button" parent="."]
+layout_mode = 0
+offset_left = 867.0
+offset_top = 516.0
+offset_right = 921.0
+offset_bottom = 544.0
+scale = Vector2(4.72748, 3.90506)
+theme_override_fonts/font = ExtResource("2_e1jui")
+text = "Ready"
+
+[node name="Back" type="Button" parent="."]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 539.0
+offset_right = 182.0
+offset_bottom = 567.0
+scale = Vector2(2.68, 3.41641)
+theme_override_fonts/font = ExtResource("2_e1jui")
+text = "Back to Main Menu"
+
+[node name="GridContainer" type="GridContainer" parent="."]
+custom_minimum_size = Vector2(25, 25)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 250.0
+offset_top = 188.0
+offset_right = 382.0
+offset_bottom = 456.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
+columns = 2
+
+[node name="LeafRanger" type="TextureRect" parent="GridContainer" groups=["Characters"]]
+layout_mode = 2
+texture = ExtResource("6_vwxa8")
+
+[node name="WindHashira" type="TextureRect" parent="GridContainer" groups=["Characters"]]
+layout_mode = 2
+texture = ExtResource("7_kdmnt")
+
+[node name="Monk" type="TextureRect" parent="GridContainer" groups=["Characters"]]
+layout_mode = 2
+texture = ExtResource("8_ei1m4")
+
+[node name="WaterPriestess" type="TextureRect" parent="GridContainer" groups=["Characters"]]
+layout_mode = 2
+texture = ExtResource("9_o7ehr")
+
+[node name="CrystalMauler" type="TextureRect" parent="GridContainer" groups=["Characters"]]
+layout_mode = 2
+texture = ExtResource("10_g1lh0")
+
+[node name="FireKnight" type="TextureRect" parent="GridContainer" groups=["Characters"]]
+layout_mode = 2
+texture = ExtResource("11_tsxyo")
+
+[node name="MetalBladesmith" type="TextureRect" parent="GridContainer" groups=["Characters"]]
+layout_mode = 2
+texture = ExtResource("12_fmfxr")
+
+[node name="Wizard" type="TextureRect" parent="GridContainer" groups=["Characters"]]
+layout_mode = 2
+
+[connection signal="pressed" from="Ready" to="." method="_on_ready_pressed"]
+[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]

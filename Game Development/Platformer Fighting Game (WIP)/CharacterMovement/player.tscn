@@ -1,0 +1,117 @@
+[gd_scene load_steps=21 format=3 uid="uid://cr7mxi5x4l053"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_dh3iy"]
+[ext_resource type="Texture2D" uid="uid://bwgj6uw8sbbgh" path="res://Art/Monk Assets/idle/idle_1.png" id="2_npbdl"]
+[ext_resource type="Texture2D" uid="uid://5xrs7vwgb1oh" path="res://Art/Monk Assets/idle/idle_2.png" id="3_osnot"]
+[ext_resource type="Texture2D" uid="uid://cfes3dnum4eic" path="res://Art/Monk Assets/idle/idle_3.png" id="4_hral6"]
+[ext_resource type="Texture2D" uid="uid://2q2usirmgq4n" path="res://Art/Monk Assets/idle/idle_4.png" id="5_hffba"]
+[ext_resource type="Texture2D" uid="uid://bl00gxs3pvxv0" path="res://Art/Monk Assets/idle/idle_5.png" id="6_8f6en"]
+[ext_resource type="Texture2D" uid="uid://b3ee570jamyl4" path="res://Art/Monk Assets/idle/idle_6.png" id="7_0uams"]
+[ext_resource type="Texture2D" uid="uid://bhdvd2s60pqxr" path="res://Art/Monk Assets/j_up/j_up_2.png" id="8_rcp8s"]
+[ext_resource type="Texture2D" uid="uid://cggjvqf1d4nlo" path="res://Art/Monk Assets/j_up/j_up_3.png" id="9_dc7ms"]
+[ext_resource type="Texture2D" uid="uid://pkrbxqgsd0ls" path="res://Art/Monk Assets/j_up/j_up_1.png" id="10_mc4nl"]
+[ext_resource type="Texture2D" uid="uid://b2suwq40lhd5m" path="res://Art/Monk Assets/run/run_1.png" id="11_xxyjf"]
+[ext_resource type="Texture2D" uid="uid://cyqa3gx7f8fyf" path="res://Art/Monk Assets/run/run_2.png" id="12_rspk8"]
+[ext_resource type="Texture2D" uid="uid://b2fp201yfhdrn" path="res://Art/Monk Assets/run/run_3.png" id="13_6oaji"]
+[ext_resource type="Texture2D" uid="uid://cflyuqp8kvi6l" path="res://Art/Monk Assets/run/run_4.png" id="14_xvamr"]
+[ext_resource type="Texture2D" uid="uid://h2fwhpkju3q6" path="res://Art/Monk Assets/run/run_5.png" id="15_qkm77"]
+[ext_resource type="Texture2D" uid="uid://2q8au0lgx2x5" path="res://Art/Monk Assets/run/run_6.png" id="16_so0wr"]
+[ext_resource type="Texture2D" uid="uid://dcph2eyoqejpp" path="res://Art/Monk Assets/run/run_7.png" id="17_mrlxy"]
+[ext_resource type="Texture2D" uid="uid://di3hlovo62mrc" path="res://Art/Monk Assets/run/run_8.png" id="18_td0me"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jpr40"]
+radius = 11.21
+height = 36.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jm5gf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_npbdl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_osnot")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_hral6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_hffba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_8f6en")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_0uams")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_rcp8s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_dc7ms")
+}],
+"loop": true,
+"name": &"jump_end",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_mc4nl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_rcp8s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_dc7ms")
+}],
+"loop": true,
+"name": &"jump_start",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_xxyjf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_rspk8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_6oaji")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_xvamr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_qkm77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_so0wr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_mrlxy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_td0me")
+}],
+"loop": true,
+"name": &"run",
+"speed": 10.0
+}]
+
+[node name="Player" type="CharacterBody2D"]
+scale = Vector2(3.38433, 3.50589)
+script = ExtResource("1_dh3iy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_jpr40")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -40)
+sprite_frames = SubResource("SpriteFrames_jm5gf")
+animation = &"idle"
+autoplay = "idle"

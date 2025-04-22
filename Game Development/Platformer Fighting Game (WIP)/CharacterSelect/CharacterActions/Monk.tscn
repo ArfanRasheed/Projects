@@ -1,0 +1,58 @@
+[gd_scene load_steps=10 format=3 uid="uid://dcahubf7bipgc"]
+
+[ext_resource type="Texture2D" uid="uid://bwgj6uw8sbbgh" path="res://Art/Characters/Monk Assets/Movement/idle/idle_1.png" id="1_lbtmd"]
+[ext_resource type="Texture2D" uid="uid://5xrs7vwgb1oh" path="res://Art/Characters/Monk Assets/Movement/idle/idle_2.png" id="2_la12m"]
+[ext_resource type="Texture2D" uid="uid://cfes3dnum4eic" path="res://Art/Characters/Monk Assets/Movement/idle/idle_3.png" id="3_45sxc"]
+[ext_resource type="Texture2D" uid="uid://2q2usirmgq4n" path="res://Art/Characters/Monk Assets/Movement/idle/idle_4.png" id="4_5ncme"]
+[ext_resource type="Texture2D" uid="uid://bl00gxs3pvxv0" path="res://Art/Characters/Monk Assets/Movement/idle/idle_5.png" id="5_6vhbs"]
+[ext_resource type="Texture2D" uid="uid://b3ee570jamyl4" path="res://Art/Characters/Monk Assets/Movement/idle/idle_6.png" id="6_8qdm5"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_j407e"]
+height = 36.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5altr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_lbtmd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_la12m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_45sxc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_5ncme")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_6vhbs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_8qdm5")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}]
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_l7hen"]
+
+[node name="Monk" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(612, 270)
+shape = SubResource("CapsuleShape2D_j407e")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(612, 231)
+sprite_frames = SubResource("SpriteFrames_5altr")
+animation = &"idle"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+tree_root = SubResource("AnimationNodeStateMachine_l7hen")
+anim_player = NodePath("../AnimationPlayer")

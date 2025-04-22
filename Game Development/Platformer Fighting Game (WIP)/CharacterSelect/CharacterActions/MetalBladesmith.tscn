@@ -1,0 +1,67 @@
+[gd_scene load_steps=12 format=3 uid="uid://sn3lkhbux811"]
+
+[ext_resource type="Texture2D" uid="uid://bpnkyysewyeen" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_1.png" id="1_5qahk"]
+[ext_resource type="Texture2D" uid="uid://djuwepbmae2pl" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_2.png" id="2_b7lfv"]
+[ext_resource type="Texture2D" uid="uid://c1xcw571eppcl" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_3.png" id="3_2tck6"]
+[ext_resource type="Texture2D" uid="uid://cgpte0gqejmxn" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_4.png" id="4_hrjfd"]
+[ext_resource type="Texture2D" uid="uid://dpk7irlsoh1ox" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_5.png" id="5_woqvs"]
+[ext_resource type="Texture2D" uid="uid://bf858cbt8unv3" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_6.png" id="6_ihfy3"]
+[ext_resource type="Texture2D" uid="uid://dw6sm5bkqcni7" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_7.png" id="7_n8ocs"]
+[ext_resource type="Texture2D" uid="uid://cj6bwke0vtpad" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_8.png" id="8_fxh8l"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ot7wb"]
+radius = 11.0
+height = 46.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_luinl"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_5qahk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_b7lfv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_2tck6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_hrjfd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_woqvs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ihfy3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_n8ocs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_fxh8l")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_a7mpj"]
+
+[node name="MetalBladesmith" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 4)
+shape = SubResource("CapsuleShape2D_ot7wb")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(2, -38)
+sprite_frames = SubResource("SpriteFrames_luinl")
+animation = &"idle"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+tree_root = SubResource("AnimationNodeStateMachine_a7mpj")
+anim_player = NodePath("../AnimationPlayer")

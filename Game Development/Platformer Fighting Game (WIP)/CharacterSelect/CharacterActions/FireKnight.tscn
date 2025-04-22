@@ -1,0 +1,67 @@
+[gd_scene load_steps=13 format=3 uid="uid://dkpojr6qdqoc3"]
+
+[ext_resource type="Texture2D" uid="uid://b1hhfnni7qp14" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_1.png" id="1_o2mtd"]
+[ext_resource type="Texture2D" uid="uid://bt8co1q8q86v1" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_2.png" id="2_a45xy"]
+[ext_resource type="Texture2D" uid="uid://bjy5in0gcbqic" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_3.png" id="3_3gl2g"]
+[ext_resource type="Texture2D" uid="uid://bme0fr8pe56ao" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_4.png" id="4_fhnoh"]
+[ext_resource type="Texture2D" uid="uid://cb2idcicku5ln" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_5.png" id="5_81gc6"]
+[ext_resource type="Texture2D" uid="uid://bkefoud6sbe76" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_6.png" id="6_lk5en"]
+[ext_resource type="Texture2D" uid="uid://deqmg7r4abqbs" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_7.png" id="7_qhx27"]
+[ext_resource type="Texture2D" uid="uid://bmt3ntwb8yspv" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_8.png" id="8_bi4xf"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_j2cfn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_o2mtd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_a45xy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_3gl2g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_fhnoh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_81gc6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_lk5en")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_qhx27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_bi4xf")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ojer2"]
+size = Vector2(20, 40)
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_5dsxt"]
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_qfem7"]
+
+[node name="FireKnight" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_j2cfn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 10)
+shape = SubResource("RectangleShape2D_ojer2")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("ViewportTexture_5dsxt")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+tree_root = SubResource("AnimationNodeStateMachine_qfem7")
+anim_player = NodePath("../AnimationPlayer")

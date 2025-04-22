@@ -1,0 +1,61 @@
+[gd_scene load_steps=4 format=3 uid="uid://b0q4k5aligx3f"]
+
+[ext_resource type="Script" path="res://Winner/Winner.gd" id="1_4aaic"]
+[ext_resource type="FontFile" uid="uid://tdbx4x0pdbd3" path="res://font/gunplay rg.otf" id="2_3pknr"]
+[ext_resource type="Texture2D" uid="uid://ff3mkjhqmv7w" path="res://image/GoldRock.jpg" id="2_yi4et"]
+
+[node name="Winner" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_4aaic")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1923.0
+offset_bottom = 1083.0
+texture = ExtResource("2_yi4et")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 256.0
+offset_top = 240.0
+offset_right = 1164.0
+offset_bottom = 391.0
+theme_override_fonts/font = ExtResource("2_3pknr")
+theme_override_font_sizes/font_size = 100
+text = "THE WINNER IS:"
+
+[node name="PlayAgain" type="Button" parent="."]
+layout_mode = 0
+offset_left = 684.0
+offset_top = 548.0
+offset_right = 1191.0
+offset_bottom = 693.0
+theme_override_font_sizes/font_size = 100
+text = "Play Again"
+
+[node name="Rematch" type="Button" parent="."]
+layout_mode = 0
+offset_left = 700.0
+offset_top = 716.0
+offset_right = 1207.0
+offset_bottom = 861.0
+theme_override_font_sizes/font_size = 100
+text = "Rematch"
+
+[node name="BackButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 520.0
+offset_top = 872.0
+offset_right = 1454.0
+offset_bottom = 1017.0
+theme_override_font_sizes/font_size = 100
+text = "Back to Main Menu"
+
+[connection signal="pressed" from="PlayAgain" to="." method="_on_play_again_pressed"]
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]

@@ -1,0 +1,447 @@
+[gd_scene load_steps=97 format=3 uid="uid://dmcsvpla32x0e"]
+
+[ext_resource type="Texture2D" uid="uid://uh1wnu8w704x" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_1.png" id="1_5hff4"]
+[ext_resource type="Texture2D" uid="uid://gph461s2k2l2" path="res://Art/Characters/Water Priestess/Attacks/07_1_atk/1_atk_1.png" id="1_axphp"]
+[ext_resource type="Texture2D" uid="uid://c5rl5in3vha8q" path="res://Art/Characters/Water Priestess/Attacks/07_1_atk/1_atk_2.png" id="2_ft5wc"]
+[ext_resource type="Texture2D" uid="uid://libmeu055uxf" path="res://Art/Characters/Water Priestess/Attacks/07_1_atk/1_atk_3.png" id="3_34ry8"]
+[ext_resource type="Texture2D" uid="uid://epf734n72786" path="res://Art/Characters/Water Priestess/Attacks/07_1_atk/1_atk_4.png" id="4_lg4g2"]
+[ext_resource type="Texture2D" uid="uid://cifamxtvd16hn" path="res://Art/Characters/Water Priestess/Attacks/07_1_atk/1_atk_5.png" id="5_0pym6"]
+[ext_resource type="Texture2D" uid="uid://cpyim3fosrj6r" path="res://Art/Characters/Water Priestess/Attacks/07_1_atk/1_atk_6.png" id="6_iy3t4"]
+[ext_resource type="Texture2D" uid="uid://bqg0yldvpe6fs" path="res://Art/Characters/Water Priestess/Attacks/07_1_atk/1_atk_7.png" id="7_i7t8l"]
+[ext_resource type="Texture2D" uid="uid://bikwxu0mgdfh7" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_1.png" id="8_u23g2"]
+[ext_resource type="Texture2D" uid="uid://uwrevuvqnh5i" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_2.png" id="9_wo6py"]
+[ext_resource type="Texture2D" uid="uid://eb6jfvolarh8" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_3.png" id="10_eqtuq"]
+[ext_resource type="Texture2D" uid="uid://cn05ccupv3kn8" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_4.png" id="11_206dx"]
+[ext_resource type="Texture2D" uid="uid://dijel3eeicg4i" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_5.png" id="12_3f6e0"]
+[ext_resource type="Texture2D" uid="uid://dir0nv2kc2nbf" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_6.png" id="13_ggkpn"]
+[ext_resource type="Texture2D" uid="uid://0oy3jfile67x" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_7.png" id="14_1m7eo"]
+[ext_resource type="Texture2D" uid="uid://bby40uxkya522" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_8.png" id="15_iwx7l"]
+[ext_resource type="Texture2D" uid="uid://b8akm8ni3r831" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_9.png" id="16_e5duo"]
+[ext_resource type="Texture2D" uid="uid://cnj018n45pm83" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_10.png" id="17_shvhh"]
+[ext_resource type="Texture2D" uid="uid://bwej4fyyehcmm" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_11.png" id="18_5aukd"]
+[ext_resource type="Texture2D" uid="uid://b3ebgsw7k63op" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_12.png" id="19_taj8p"]
+[ext_resource type="Texture2D" uid="uid://ccc8kyo0o2yfq" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_13.png" id="20_0bd0b"]
+[ext_resource type="Texture2D" uid="uid://b8jeokw26pvxv" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_14.png" id="21_q8f1p"]
+[ext_resource type="Texture2D" uid="uid://by1rtc1883x7w" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_15.png" id="22_sic1f"]
+[ext_resource type="Texture2D" uid="uid://fhkf76d1nsj6" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_16.png" id="23_2tiyo"]
+[ext_resource type="Texture2D" uid="uid://cb6n1gucp7f0q" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_17.png" id="24_ccabf"]
+[ext_resource type="Texture2D" uid="uid://bthju7ixbtusk" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_18.png" id="25_2w61n"]
+[ext_resource type="Texture2D" uid="uid://c8d41kdb612ip" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_19.png" id="26_mgot7"]
+[ext_resource type="Texture2D" uid="uid://cstjhk3037kp0" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_20.png" id="27_7b3dg"]
+[ext_resource type="Texture2D" uid="uid://c3vichkary1o1" path="res://Art/Characters/Water Priestess/Attacks/08_2_atk/2_atk_21.png" id="28_l2lxg"]
+[ext_resource type="Texture2D" uid="uid://dvv40xq3hqyk3" path="res://Art/Characters/Water Priestess/Misc/12_defend/defend_1.png" id="29_j1dxk"]
+[ext_resource type="Texture2D" uid="uid://0nxehpa73lnu" path="res://Art/Characters/Water Priestess/Misc/14_death/death_1.png" id="29_jw6ke"]
+[ext_resource type="Texture2D" uid="uid://tmuoljod4klj" path="res://Art/Characters/Water Priestess/Misc/12_defend/defend_2.png" id="30_2lqur"]
+[ext_resource type="Texture2D" uid="uid://pgqxo6i1jmu1" path="res://Art/Characters/Water Priestess/Misc/14_death/death_2.png" id="30_yevmq"]
+[ext_resource type="Texture2D" uid="uid://dvlep6cuk6qtk" path="res://Art/Characters/Water Priestess/Misc/12_defend/defend_3.png" id="31_0vft4"]
+[ext_resource type="Texture2D" uid="uid://dq6uqnkijmofb" path="res://Art/Characters/Water Priestess/Misc/14_death/death_3.png" id="31_3awj6"]
+[ext_resource type="Texture2D" uid="uid://dk83y1qpudivd" path="res://Art/Characters/Water Priestess/Misc/12_defend/defend_4.png" id="32_vegqw"]
+[ext_resource type="Texture2D" uid="uid://bffu2y6iaxi57" path="res://Art/Characters/Water Priestess/Misc/14_death/death_4.png" id="32_vnqxi"]
+[ext_resource type="Texture2D" uid="uid://bljxnx2ukf4nx" path="res://Art/Characters/Water Priestess/Misc/14_death/death_5.png" id="33_rotf0"]
+[ext_resource type="Texture2D" uid="uid://bq8gq2dc7wuvo" path="res://Art/Characters/Water Priestess/Misc/12_defend/defend_5.png" id="33_t60fn"]
+[ext_resource type="Texture2D" uid="uid://hj3b3h152rpn" path="res://Art/Characters/Water Priestess/Misc/14_death/death_6.png" id="34_300cf"]
+[ext_resource type="Texture2D" uid="uid://blc61h52oiicd" path="res://Art/Characters/Water Priestess/Misc/12_defend/defend_6.png" id="34_ah00v"]
+[ext_resource type="Texture2D" uid="uid://c15jlomaghvfh" path="res://Art/Characters/Water Priestess/Misc/12_defend/defend_7.png" id="35_g60yy"]
+[ext_resource type="Texture2D" uid="uid://r2sfjfwv863f" path="res://Art/Characters/Water Priestess/Misc/14_death/death_7.png" id="35_wg5lp"]
+[ext_resource type="Texture2D" uid="uid://467puyfwc5f8" path="res://Art/Characters/Water Priestess/Misc/14_death/death_8.png" id="36_3mim4"]
+[ext_resource type="Texture2D" uid="uid://dx15oy1fl6yp3" path="res://Art/Characters/Water Priestess/Misc/12_defend/defend_8.png" id="36_t3ssb"]
+[ext_resource type="Texture2D" uid="uid://qhkyhppq50d6" path="res://Art/Characters/Water Priestess/Misc/12_defend/defend_9.png" id="37_1xwxc"]
+[ext_resource type="Texture2D" uid="uid://bg1h8hxc3qstb" path="res://Art/Characters/Water Priestess/Misc/14_death/death_9.png" id="37_82gsu"]
+[ext_resource type="Texture2D" uid="uid://bhs8blg8xusn5" path="res://Art/Characters/Water Priestess/Misc/12_defend/defend_10.png" id="38_e4nhj"]
+[ext_resource type="Texture2D" uid="uid://ggclc0bai2mc" path="res://Art/Characters/Water Priestess/Misc/14_death/death_10.png" id="38_xixqt"]
+[ext_resource type="Texture2D" uid="uid://ux64exuoxj43" path="res://Art/Characters/Water Priestess/Misc/14_death/death_11.png" id="39_2nuwm"]
+[ext_resource type="Texture2D" uid="uid://cxbfr5i0uwt24" path="res://Art/Characters/Water Priestess/Misc/12_defend/defend_11.png" id="39_c7arl"]
+[ext_resource type="Texture2D" uid="uid://cqeij13avertb" path="res://Art/Characters/Water Priestess/Misc/14_death/death_12.png" id="40_tlsto"]
+[ext_resource type="Texture2D" uid="uid://bbd1xipyx0eq6" path="res://Art/Characters/Water Priestess/Misc/12_defend/defend_12.png" id="40_ycysk"]
+[ext_resource type="Texture2D" uid="uid://b816rku00u62r" path="res://Art/Characters/Water Priestess/Misc/14_death/death_13.png" id="41_7ynf4"]
+[ext_resource type="Texture2D" uid="uid://ct4kau2oi6ypv" path="res://Art/Characters/Water Priestess/Misc/14_death/death_14.png" id="42_hnm11"]
+[ext_resource type="Texture2D" uid="uid://bjkksg8ta6tp5" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_2.png" id="42_u4bn1"]
+[ext_resource type="Texture2D" uid="uid://c2nrrnts67j6" path="res://Art/Characters/Water Priestess/Misc/14_death/death_15.png" id="43_jojs7"]
+[ext_resource type="Texture2D" uid="uid://e21uc82a2fnj" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_3.png" id="43_jwgxp"]
+[ext_resource type="Texture2D" uid="uid://bystkxpt2num2" path="res://Art/Characters/Water Priestess/Misc/14_death/death_16.png" id="44_rbusw"]
+[ext_resource type="Texture2D" uid="uid://bnhqvf5y5h4dy" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_4.png" id="44_rjpkb"]
+[ext_resource type="Texture2D" uid="uid://cqiv8rra5x44u" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_5.png" id="45_6go0d"]
+[ext_resource type="Texture2D" uid="uid://bjptwyrrpxh54" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_6.png" id="46_4fwki"]
+[ext_resource type="Texture2D" uid="uid://bkxsmycrp8t3i" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_7.png" id="47_axi5j"]
+[ext_resource type="Texture2D" uid="uid://cvs5mjfn37dlc" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_8.png" id="48_ehbj4"]
+[ext_resource type="Texture2D" uid="uid://losq4oicg386" path="res://Art/Characters/Water Priestess/Movement/04_j_up/j_up_1.png" id="49_ft2tf"]
+[ext_resource type="Texture2D" uid="uid://oo0iirxmiuxo" path="res://Art/Characters/Water Priestess/Movement/04_j_up/j_up_2.png" id="50_o5rk1"]
+[ext_resource type="Texture2D" uid="uid://dowudvrpb3hvi" path="res://Art/Characters/Water Priestess/Movement/04_j_up/j_up_3.png" id="51_0ruea"]
+[ext_resource type="Texture2D" uid="uid://88d1minq8w8m" path="res://Art/Characters/Water Priestess/Movement/05_j_down/j_down_1.png" id="52_tri5j"]
+[ext_resource type="Texture2D" uid="uid://dxaqe8ri2kfyy" path="res://Art/Characters/Water Priestess/Movement/05_j_down/j_down_2.png" id="53_wnftq"]
+[ext_resource type="Texture2D" uid="uid://dgldkcaaxhyr6" path="res://Art/Characters/Water Priestess/Movement/05_j_down/j_down_3.png" id="54_jv1e0"]
+[ext_resource type="Texture2D" uid="uid://di1riuink8w2h" path="res://Art/Characters/Water Priestess/Misc/13_take_hit/take_hit_1.png" id="55_3g52s"]
+[ext_resource type="Texture2D" uid="uid://yc3xuh56kh80" path="res://Art/Characters/Water Priestess/Misc/13_take_hit/take_hit_2.png" id="56_xbuqs"]
+[ext_resource type="Texture2D" uid="uid://dn4mcg22qrxdf" path="res://Art/Characters/Water Priestess/Misc/13_take_hit/take_hit_3.png" id="57_b6o7y"]
+[ext_resource type="Texture2D" uid="uid://7u8fme47sre5" path="res://Art/Characters/Water Priestess/Misc/13_take_hit/take_hit_4.png" id="58_3hlkb"]
+[ext_resource type="Texture2D" uid="uid://dhu8je7yyjubj" path="res://Art/Characters/Water Priestess/Misc/13_take_hit/take_hit_5.png" id="59_12agx"]
+[ext_resource type="Texture2D" uid="uid://dc5rs5tpxso40" path="res://Art/Characters/Water Priestess/Misc/13_take_hit/take_hit_6.png" id="60_sd8dx"]
+[ext_resource type="Texture2D" uid="uid://d3uavdcptb54u" path="res://Art/Characters/Water Priestess/Misc/13_take_hit/take_hit_7.png" id="61_jox0y"]
+[ext_resource type="Texture2D" uid="uid://dwje01f5xyjve" path="res://Art/Characters/Water Priestess/Movement/06_tumble/tumble_1.png" id="62_ui1v5"]
+[ext_resource type="Texture2D" uid="uid://bobjg226d2r1u" path="res://Art/Characters/Water Priestess/Movement/06_tumble/tumble_2.png" id="63_oel3q"]
+[ext_resource type="Texture2D" uid="uid://c1p3d1jn3laew" path="res://Art/Characters/Water Priestess/Movement/06_tumble/tumble_3.png" id="64_4s5qa"]
+[ext_resource type="Texture2D" uid="uid://bfl78bejjfgj7" path="res://Art/Characters/Water Priestess/Movement/06_tumble/tumble_4.png" id="65_7yf1l"]
+[ext_resource type="Texture2D" uid="uid://bqt3skvcfi6wc" path="res://Art/Characters/Water Priestess/Movement/06_tumble/tumble_5.png" id="66_btskm"]
+[ext_resource type="Texture2D" uid="uid://jwwkr83ivij3" path="res://Art/Characters/Water Priestess/Movement/06_tumble/tumble_6.png" id="67_g871c"]
+[ext_resource type="Texture2D" uid="uid://b7eolx0g4ibh" path="res://Art/Characters/Water Priestess/Movement/02_walk/walk_1.png" id="68_3iu6x"]
+[ext_resource type="Texture2D" uid="uid://dohp1dwbmu0bs" path="res://Art/Characters/Water Priestess/Movement/02_walk/walk_2.png" id="69_123k7"]
+[ext_resource type="Texture2D" uid="uid://bnntg370duxlu" path="res://Art/Characters/Water Priestess/Movement/02_walk/walk_3.png" id="70_cvpgt"]
+[ext_resource type="Texture2D" uid="uid://c451a1ibiqbms" path="res://Art/Characters/Water Priestess/Movement/02_walk/walk_4.png" id="71_vpip6"]
+[ext_resource type="Texture2D" uid="uid://bhc7oungnwx2l" path="res://Art/Characters/Water Priestess/Movement/02_walk/walk_5.png" id="72_ojyb6"]
+[ext_resource type="Texture2D" uid="uid://tvhjk2b7vqph" path="res://Art/Characters/Water Priestess/Movement/02_walk/walk_6.png" id="73_qewj6"]
+[ext_resource type="Texture2D" uid="uid://ccbbmk22al33f" path="res://Art/Characters/Water Priestess/Movement/02_walk/walk_7.png" id="74_6xm6e"]
+[ext_resource type="Texture2D" uid="uid://k7smfro8rvg1" path="res://Art/Characters/Water Priestess/Movement/02_walk/walk_8.png" id="75_rrv5k"]
+[ext_resource type="Texture2D" uid="uid://cho3hrpgce1fx" path="res://Art/Characters/Water Priestess/Movement/02_walk/walk_9.png" id="76_8a6th"]
+[ext_resource type="Texture2D" uid="uid://cb06qreqdshdf" path="res://Art/Characters/Water Priestess/Movement/02_walk/walk_10.png" id="77_ropdg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1dgq6"]
+size = Vector2(20, 34)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qqbf0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_axphp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ft5wc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_34ry8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_lg4g2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_0pym6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_iy3t4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_i7t8l")
+}],
+"loop": true,
+"name": &"attack1",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_u23g2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_wo6py")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_eqtuq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_206dx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_3f6e0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ggkpn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_1m7eo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_iwx7l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_e5duo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_shvhh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_5aukd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_taj8p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_0bd0b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_q8f1p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_sic1f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_2tiyo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_ccabf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_2w61n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_mgot7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_7b3dg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_l2lxg")
+}],
+"loop": true,
+"name": &"attack2",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("29_jw6ke")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_yevmq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_3awj6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_vnqxi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_rotf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_300cf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_wg5lp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_3mim4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_82gsu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_xixqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_2nuwm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_tlsto")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_7ynf4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_hnm11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_jojs7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_rbusw")
+}],
+"loop": true,
+"name": &"death",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("29_j1dxk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_2lqur")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_0vft4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_vegqw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_t60fn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_ah00v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_g60yy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_t3ssb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_1xwxc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_e4nhj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_c7arl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_ycysk")
+}],
+"loop": true,
+"name": &"defend",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_5hff4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_u4bn1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_jwgxp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_rjpkb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_6go0d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_4fwki")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_axi5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_ehbj4")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("49_ft2tf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_o5rk1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_0ruea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_tri5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_wnftq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_jv1e0")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("55_3g52s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_xbuqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_b6o7y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_3hlkb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_12agx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_sd8dx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_jox0y")
+}],
+"loop": true,
+"name": &"knockback",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("62_ui1v5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_oel3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_4s5qa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_7yf1l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_btskm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_g871c")
+}],
+"loop": true,
+"name": &"roll",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("68_3iu6x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_123k7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_cvpgt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_vpip6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_ojyb6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_qewj6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_6xm6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_rrv5k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_8a6th")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_ropdg")
+}],
+"loop": true,
+"name": &"run",
+"speed": 5.0
+}]
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_1btdo"]
+
+[node name="WaterPriestess" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+top_level = true
+position = Vector2(0, 45)
+shape = SubResource("RectangleShape2D_1dgq6")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_qqbf0")
+animation = &"idle"
+autoplay = "idle"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+tree_root = SubResource("AnimationNodeStateMachine_1btdo")
+anim_player = NodePath("../AnimationPlayer")

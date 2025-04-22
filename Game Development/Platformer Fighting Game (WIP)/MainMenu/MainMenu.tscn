@@ -1,0 +1,130 @@
+[gd_scene load_steps=8 format=3 uid="uid://daeb8utifp7hm"]
+
+[ext_resource type="Script" path="res://MainMenu/MainMenu.gd" id="1_yagks"]
+[ext_resource type="FontFile" uid="uid://bvvpoyoy438w" path="res://Revamped.otf" id="2_cavqn"]
+[ext_resource type="Texture2D" uid="uid://bpt3owfc8oop1" path="res://MainMenu/SettingsGear.png" id="2_dq7eo"]
+[ext_resource type="Texture2D" uid="uid://djtpwsy5mhfkf" path="res://RockImage.jpg" id="2_lndya"]
+[ext_resource type="Texture2D" uid="uid://b6bkpob1fscsw" path="res://MainMenu/BugReport.png" id="2_wps2v"]
+[ext_resource type="Texture2D" uid="uid://c8bw37jg8ueoi" path="res://MainMenu/Discord.png" id="3_oibe7"]
+[ext_resource type="FontFile" uid="uid://tdbx4x0pdbd3" path="res://gunplay rg.otf" id="3_pw417"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -8.0
+offset_top = -4.0
+offset_right = -8.0
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yagks")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -952.0
+offset_top = -536.0
+offset_right = 967.0
+offset_bottom = 539.0
+texture = ExtResource("2_lndya")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = -1130.0
+offset_top = -437.0
+offset_right = 1136.0
+offset_bottom = -225.0
+theme_override_fonts/font = ExtResource("2_cavqn")
+theme_override_font_sizes/font_size = 163
+text = "ELEMENTAL CLASH"
+horizontal_alignment = 1
+
+[node name="ExitButton" type="Button" parent="."]
+layout_mode = 2
+offset_left = -95.0
+offset_top = 128.0
+offset_right = 129.0
+offset_bottom = 260.0
+theme_override_fonts/font = ExtResource("3_pw417")
+theme_override_font_sizes/font_size = 90
+text = "EXIT"
+
+[node name="LinkButton" type="Button" parent="."]
+layout_mode = 2
+offset_left = 128.0
+offset_top = 396.0
+offset_right = 224.0
+offset_bottom = 484.0
+size_flags_vertical = 4
+icon = ExtResource("2_wps2v")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="SettingsButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -48.0
+offset_top = 396.0
+offset_right = 912.0
+offset_bottom = 1276.0
+grow_horizontal = 2
+scale = Vector2(0.1, 0.1)
+icon = ExtResource("2_dq7eo")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="DiscordButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = -216.0
+offset_top = 396.0
+offset_right = -128.0
+offset_bottom = 484.0
+icon = ExtResource("3_oibe7")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="HostButton" type="Button" parent="."]
+top_level = true
+layout_mode = 0
+offset_left = 872.0
+offset_top = 312.0
+offset_right = 1015.0
+offset_bottom = 403.0
+theme_override_font_sizes/font_size = 60
+button_mask = 3
+text = "Host"
+
+[node name="Join" type="Button" parent="."]
+layout_mode = 0
+offset_left = -72.0
+offset_top = -48.0
+offset_right = 46.0
+offset_bottom = 43.0
+theme_override_font_sizes/font_size = 60
+text = "Join"
+
+[node name="Play" type="Button" parent="."]
+layout_mode = 0
+offset_left = -408.0
+offset_top = -88.0
+offset_right = -290.0
+offset_bottom = 3.0
+theme_override_font_sizes/font_size = 60
+text = "Play"
+
+[connection signal="pressed" from="ExitButton" to="." method="_on_exit_button_pressed"]
+[connection signal="pressed" from="LinkButton" to="." method="_on_link_button_pressed"]
+[connection signal="pressed" from="SettingsButton" to="." method="_on_settings_button_pressed"]
+[connection signal="pressed" from="DiscordButton" to="." method="_on_discord_pressed"]
+[connection signal="pressed" from="HostButton" to="." method="_on_host_button_pressed"]
+[connection signal="pressed" from="Join" to="." method="_on_join_pressed"]
+[connection signal="pressed" from="Play" to="." method="_on_join_pressed"]
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
